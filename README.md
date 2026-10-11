@@ -206,7 +206,7 @@ Bankism provides 14 pre-configured test scenarios ready for single-click executi
 
 ---
 
-## 8. Custom Judge Attack Interface (Mode B)
+## 8. Custom  Attack Interface (Mode B)
 
 Judges can type arbitrary natural-language attacks in the Custom Attack Sandbox:
 1. Navigate to **Live Attack Lab** → **Mode B: Custom Judge Attacks**.
