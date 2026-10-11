@@ -265,18 +265,4 @@ This application is an educational prototype built for hackathon evaluation:
 
 ---
 
-## 13. Hackathon Judge Demonstration Script (3 Minutes)
 
-1. **Overview (30s):**
-   - Open `http://127.0.0.1:8000`. Show the dark navy dashboard, operating mode badge, and live metrics.
-2. **Launch Attack Scenarios (60s):**
-   - Click **Run All 14 Scenarios Batch** under Curated Scenarios.
-   - Point out that Prompt Injection (`scenario-3`), Account Takeover (`scenario-4`), and Limit Violations (`scenario-5`, `scenario-6`) are blocked with `PASS` verification.
-   - Show that Legitimate Transfers (`scenario-2`, `scenario-14`) successfully execute without false positives.
-3. **Custom Judge Attack (45s):**
-   - Go to **Mode B: Custom Judge Attacks**. Click the shortcut *"Account Takeover: Drain Vikram's ₹500k"*.
-   - Click **Execute Security Pipeline**. Watch the 9-stage progression execute in real time.
-4. **Independent Evidence Verification (45s):**
-   - Click **Inspect Cryptographic Evidence**.
-   - Show the Pre/Post balance comparison proving Vikram's balance remained exactly ₹500,000.00 with 0 ledger modifications.
-   - Click **Export Evidence JSON** to download the audit certificate.
